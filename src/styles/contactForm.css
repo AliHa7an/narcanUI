@@ -2,3 +2,23 @@
     height:100vh;
     color: white;
 }
+.form-group{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    display:flex;
+    flex-flow:column;
+}
+.form-input{
+    padding:6px;
+     border-radius:6px;
+}
+.text-danger{
+    color: #E83A78;
+}
+.gray-text{
+    color:gray
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
