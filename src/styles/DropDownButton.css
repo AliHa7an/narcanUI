@@ -1,0 +1,21 @@
+.dropdown-button {
+    background-color: transparent;
+    border: transparent;
+    color: black;
+    outline: transparent !important;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+  
+  .dropdown-button:hover {
+    background-color: transparent;
+    color: black;
+    outline: transparent;
+  }
+  
+  .dropdown-button:active {
+    background-color: transparent;
+    color: black;
+    outline: transparent;
+  }

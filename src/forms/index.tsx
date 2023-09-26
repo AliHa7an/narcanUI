@@ -19,7 +19,7 @@ const [initState, setInitState] = useState({
     password: "",
     confirmPassword: "",
     termsAndConditions: false,
-    step : 2
+    step : 1
   })
  const  nextStep = () => {
     const { step } = initState;

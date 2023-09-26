@@ -4,20 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import WelcomePage from './pages/WelcomePage';
-import ContactForm from './forms/ContactForm';
-import OrderDetails from './forms/OrderDetails';
-import Form from './forms';
-
-import 'bootstrap/dist/css/bootstrap.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    {/* <WelcomePage /> */}
-    {/* <ContactForm/> */}
-    <Form/>
+    <WelcomePage />
   </React.StrictMode>
 );
 

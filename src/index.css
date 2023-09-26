@@ -1,6 +1,9 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
 @import './styles/welcomePage.css';
-@import './styles/contactForm.css';
-@import './styles/orderDetails.css';
+@import './styles/Footer.css';
+@import './styles//Header.css';
+@import './styles//DropDownButton.css';
+@import './styles//ContactForm.css';
 
 body {
   margin: 0;
@@ -9,9 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(180deg, #1A1A1B 0%, #323233 47.92%, #6A6A6B 100%);
-  height: 100vh;
-  color: white;
+  background-color: linear-gradient(180deg, #1A1A1B 0%, #323233 47.92%, #6A6A6B 100%);
 
 }
 

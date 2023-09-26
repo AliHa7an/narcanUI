@@ -1,0 +1,77 @@
+
+/* Default styles for larger screens */
+.row-with-middle-col {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    height: 83px;
+    z-index: 10;
+    width: -webkit-fill-available;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+  }
+  
+  .col-auto-logo {
+    /* Your logo styles for larger screens */
+    height: 25px;
+    position: relative;
+    top: 25px;
+  }
+  
+  .col-auto-text {
+    /* Your text styles for larger screens */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+  
+  .col-auto-dropdown {
+    /* Your dropdown styles for larger screens */
+    margin-left: auto;
+  }
+  
+  /* Media query for screens less than 768px wide (adjust as needed) */
+  @media (max-width: 1188px) {
+    .col-auto-text {
+      display: none; /* Hide the middle column on smaller screens */
+    }
+  }
+  
+
+  .centered-container {
+    width: 240px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 105px;
+    margin: auto;
+    z-index: 5;
+    background: transparent;
+  }
+  
+  .icon-image {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 767px) {
+    .centered-container{
+      display: none;
+    }
+    .col-auto-dropdown{
+        display: none;
+    }
+    .col-auto-text{
+      display: none;
+    }
+    .row-with-middle-col{
+        justify-content: center;
+    }
+  }

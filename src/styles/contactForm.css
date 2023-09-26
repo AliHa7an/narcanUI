@@ -1,5 +1,6 @@
 .form-container{
-    height:100vh;
+    margin-bottom: 80px;
+    margin-top: 170px;
     color: white;
 }
 .form-group{
@@ -22,3 +23,14 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.city-margin-top {
+    margin-top: 0rem;
+  }
+  
+  /* Media query for screens less than 992px */
+  @media (max-width: 991px) {
+    .city-margin-top {
+      margin-top: 1.5rem;
+    }
+  }
